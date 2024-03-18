@@ -1,14 +1,12 @@
 import pageNotFounde from '../assert/images/404image.jpg';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Button } from '../components';
-import { useEffect } from 'react';
+import { useTitle } from '../Hooks';
 
 export  function PageNotFound() {
   // const navigate = useNavigate();
 
-  useEffect(() => {
-    document.title = 'Page Not Found / MovieListSite'
-  })
+  useTitle('Page Not Found');
 
   return (
     <main>
