@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { MovieCards } from "../components"
 import { useFetch, useTitle } from "../Hooks"
 import { useSearchParams } from 'react-router-dom'
